@@ -16,7 +16,7 @@ html , body{
     cursor: pointer;
     font-family: 'Courgette' , sans-serif ;
     font-size: 25px;
-    background: linear-gradient(to right, rgb(234, 165, 231), rgb(188, 106, 236), rgb(107, 7, 237));
+    background: linear-gradient(to right, rgb(236, 129, 231), rgb(150, 59, 203), rgb(84, 6, 186));
 }
 .row{
     margin : 9px 0;
@@ -38,7 +38,7 @@ html , body{
     /* flex-direction: column; */
 }
 .img-calculator {
-    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
+    background-image: url('https://images.pling.com/img/00/00/61/57/57/1549487/577c4dc30402a8dfa3915867a59e64a89b7b723b9ac219fd677bdd0415563d4f084f.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
@@ -52,7 +52,7 @@ html , body{
   }
   .cal{
     border: 2px solid red;
-    background-color:rgb(252, 161, 42);
+    background-color:rgb(242, 125, 7);
     padding:23px;
     border-radius: 50px;
     display:inline-block;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,66 +10,73 @@
     <link href="utils.css" rel="stylesheet" type="text/css" />
     <style>
         #mySpecialButton {
-          text-align: center;
-          width: 140px;
-          height: 50px;
-          border-radius: 50px;
-          /* background: #e89e79; */
-          background: linear-gradient(to right, rgb(223, 131, 94), rgb(248, 42, 6));
+            text-align: center;
+            width: 140px;
+            height: 50px;
+            border-radius: 50px;
+            /* background: #e89e79; */
+            background: linear-gradient(to right, rgb(223, 131, 94), rgb(248, 42, 6));
         }
+
         #mySpecialButton1 {
-          text-align: center;
-          width: 140px;
-          height: 50px;
-          border-radius: 50px;
-          /* background: #67eb7f; */
-          background: linear-gradient(to right, rgb(121, 242, 155), rgb(4, 241, 79));
+            text-align: center;
+            width: 140px;
+            height: 50px;
+            border-radius: 50px;
+            /* background: #67eb7f; */
+            background: linear-gradient(to right, rgb(121, 242, 155), rgb(4, 241, 79));
         }
-      </style>
+
+        #myHeading {
+            color: rgb(251, 170, 231);
+        }
+    </style>
 </head>
+
 <body>
     <div class="img-calculator">
-    <h2 class="text-center">My Calculator !!!</h2>
-    <!-- <div class="cal "> -->
-    <div class="container flex flex-col items-center mx-auto ">
+        <h2 id="myHeading" class="text-center">" Wherever there is number, there is beauty." !!!</h2>
+        <!-- <div class="cal "> -->
+        <div class="container flex flex-col items-center mx-auto ">
 
-        <div class="cal ">
-        <div class="row">
-            <input class="row-input" type="text"/>
-        </div>
-        <div class="row">
-            <button id="mySpecialButton" class="circular-button">Clear</button>
-            <button class="circular-button">%</button>
-            <button class="circular-button">/</button>
-        </div>
-        <div class="row">
-            <button class="circular-button">9</button>
-            <button class="circular-button">8</button>
-            <button class="circular-button">7</button>
-            <button class="circular-button">*</button>
-        </div>
-        <div class="row">
-            <button class="circular-button">4</button>
-            <button class="circular-button">5</button>
-            <button class="circular-button">6</button>
-            <button class="circular-button">-</button>
-        </div>
-        <div class="row">
-            <button class="circular-button">1</button>
-            <button class="circular-button">2</button>
-            <button class="circular-button">3</button>
-            <button class="circular-button">+</button>
-        </div>
-        <div class="row">
-            <!-- <button class="button">C</button> -->
-            <button class="circular-button">0</button>
-            <button class="circular-button">.</button>
-            <button id="mySpecialButton1" class="circular-button">=</button>
+            <div class="cal ">
+                <div class="row">
+                    <input class="row-input" type="text" />
+                </div>
+                <div class="row">
+                    <button id="mySpecialButton" class="circular-button">Clear</button>
+                    <button class="circular-button">%</button>
+                    <button class="circular-button">/</button>
+                </div>
+                <div class="row">
+                    <button class="circular-button">9</button>
+                    <button class="circular-button">8</button>
+                    <button class="circular-button">7</button>
+                    <button class="circular-button">*</button>
+                </div>
+                <div class="row">
+                    <button class="circular-button">4</button>
+                    <button class="circular-button">5</button>
+                    <button class="circular-button">6</button>
+                    <button class="circular-button">-</button>
+                </div>
+                <div class="row">
+                    <button class="circular-button">1</button>
+                    <button class="circular-button">2</button>
+                    <button class="circular-button">3</button>
+                    <button class="circular-button">+</button>
+                </div>
+                <div class="row">
+                    <!-- <button class="button">C</button> -->
+                    <button class="circular-button">0</button>
+                    <button class="circular-button">.</button>
+                    <button id="mySpecialButton1" class="circular-button">=</button>
+                </div>
+            </div>
         </div>
     </div>
     </div>
-</div>
-</div>
     <script src="script.js"></script>
 </body>
+
 </html>

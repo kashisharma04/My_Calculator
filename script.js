@@ -7,7 +7,7 @@ Array.from(buttons).forEach((button) => {
             document.querySelector('input').value = string;
         }
         else if (e.target.innerHTML == 'Clear') {
-            string = " ";
+            string = "";
             document.querySelector('input').value = string;
         }
         else {
